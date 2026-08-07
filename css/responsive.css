@@ -31,3 +31,8 @@ nav li{
 .header-right{
     flex-direction:column;
 }
+.hero-content{
+
+    grid-template-columns:1fr;
+
+}
