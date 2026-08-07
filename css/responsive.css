@@ -36,3 +36,19 @@ nav li{
     grid-template-columns:1fr;
 
 }
+@media (max-width: 768px){
+
+.news-grid{
+    grid-template-columns:1fr;
+}
+
+.header{
+    flex-direction:column;
+    gap:15px;
+}
+
+.search-box input{
+    width:180px;
+}
+
+}

@@ -12,69 +12,127 @@
 <body>
 
     <!-- Header -->
-    <header>
+    <header class="header">
 
-    <div class="container header-top">
-
-        <div class="logo">
-            <h1>📰 NewsHub</h1>
-        </div>
-
-        <div class="today-date">
-            Friday, 07 August 2026
-        </div>
-
-        <div class="header-right">
-
-            <input type="text" placeholder="Search news...">
-
-            <button>Search</button>
-
-            <a href="admin/login.html" class="login-btn">
-                Login
-            </a>
-
-        </div>
-
+    <div class="logo">
+        <h1>NewsHub</h1>
     </div>
 
-    <nav>
-
-        <div class="container">
-
-            <ul>
-
-                <li><a href="index.html">Home</a></li>
-
-                <li><a href="categories.html">Categories</a></li>
-
-                <li><a href="about.html">About</a></li>
-
-                <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-
-        </div>
-
-    </nav>
+    <div class="search-box">
+        <input type="text" placeholder="Search News...">
+        <button>Search</button>
+    </div>
 
 </header>
 
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="categories.html">Categories</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+<li><a href="admin/login.html">Admin</a></li>
+
+</ul>
+
+</nav>
+
 <!-- Breaking News -->
 
-<section class="breaking-news">
+<section class="breaking">
 
-    <div class="container">
+<marquee>
 
-        <span class="breaking-label">BREAKING</span>
+🔥 Breaking News :
+Bangladesh | Sports | Technology | Business | International News
 
-        <marquee behavior="scroll" direction="left">
+</marquee>
 
-            Welcome to NewsHub • Bangladesh News • World News • Sports • Technology • Education • Business
+</section>
+<section class="featured">
 
-        </marquee>
+<img src="images/news/news1.jpg" alt="Featured News">
 
+<h2>বাংলাদেশে প্রযুক্তির নতুন যুগ শুরু</h2>
+
+<p>
+
+বাংলাদেশে প্রযুক্তির উন্নয়নের মাধ্যমে নতুন সম্ভাবনার দ্বার উন্মুক্ত হচ্ছে।
+
+</p>
+
+</section>
+<section class="latest">
+
+<h2>Latest News</h2>
+
+<div class="news-grid">
+<div class="card">
+    <img src="images/news/news1.jpg" alt="AI Technology">
+    <div class="card-content">
+        <span class="category">Technology</span>
+        <h3>বাংলাদেশে নতুন AI প্রযুক্তির ব্যবহার শুরু</h3>
+        <p>কৃত্রিম বুদ্ধিমত্তা শিক্ষা, স্বাস্থ্যসেবা ও ব্যবসায় নতুন সম্ভাবনার দ্বার খুলে দিচ্ছে।</p>
+        <a href="articles/article1.html" class="read-btn">Read More</a>
     </div>
+</div>
+
+<div class="card">
+    <img src="images/news/news2.jpg" alt="Sports">
+    <div class="card-content">
+        <span class="category">Sports</span>
+        <h3>বিশ্বকাপে বাংলাদেশের ঐতিহাসিক জয়</h3>
+        <p>দুর্দান্ত দলীয় পারফরম্যান্সে বাংলাদেশ বিশ্বমঞ্চে নতুন ইতিহাস গড়েছে।</p>
+        <a href="articles/article2.html" class="read-btn">Read More</a>
+    </div>
+</div>
+
+<div class="card">
+    <img src="images/news/news3.jpg" alt="Business">
+    <div class="card-content">
+        <span class="category">Business</span>
+        <h3>শেয়ার বাজারে নতুন রেকর্ড</h3>
+        <p>লেনদেন ও সূচক বৃদ্ধির মাধ্যমে দেশের পুঁজিবাজারে নতুন ইতিবাচক ধারা সৃষ্টি হয়েছে।</p>
+        <a href="articles/article3.html" class="read-btn">Read More</a>
+    </div>
+</div>
+
+<div class="card">
+    <img src="images/news/news4.jpg" alt="Education">
+    <div class="card-content">
+        <span class="category">Education</span>
+        <h3>ডিজিটাল বাংলাদেশ গড়ার নতুন অঙ্গীকার</h3>
+        <p>প্রযুক্তিনির্ভর শিক্ষা ও দক্ষ মানবসম্পদ গঠনে নতুন উদ্যোগ গ্রহণ করা হয়েছে।</p>
+        <a href="articles/article4.html" class="read-btn">Read More</a>
+    </div>
+</div>
+
+<div class="card">
+    <img src="images/news/news5.jpg" alt="Global Business">
+    <div class="card-content">
+        <span class="category">International</span>
+        <h3>বিশ্ব বাণিজ্যে বাংলাদেশের নতুন দিগন্ত</h3>
+        <p>রপ্তানি বৃদ্ধি ও আন্তর্জাতিক বাণিজ্যে নতুন সুযোগ তৈরি হচ্ছে বাংলাদেশের জন্য।</p>
+        <a href="articles/article5.html" class="read-btn">Read More</a>
+    </div>
+</div>
+
+<div class="card">
+    <img src="images/news/news6.jpg" alt="Future World">
+    <div class="card-content">
+        <span class="category">World</span>
+        <h3>স্মার্ট বাংলাদেশের পথে ডিজিটাল বিপ্লব</h3>
+        <p>কৃত্রিম বুদ্ধিমত্তা, সবুজ প্রযুক্তি ও স্মার্ট সিটির মাধ্যমে ভবিষ্যতের বাংলাদেশ গড়ে উঠছে।</p>
+        <a href="articles/article6.html" class="read-btn">Read More</a>
+    </div>
+</div>
+</div>
 
 </section>
 
@@ -156,6 +214,9 @@
             </div>
 
         </div>
+
+    </section>
+    <section id="news-container">
 
     </section>
 
