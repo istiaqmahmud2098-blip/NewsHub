@@ -91,3 +91,76 @@ if (searchInput) {
     });
 
 }
+/* =====================================
+   Image Slider
+====================================== */
+
+const slides = document.querySelectorAll(".slide");
+
+const next = document.querySelector(".next");
+
+const prev = document.querySelector(".prev");
+
+let index = 0;
+
+// Slide দেখানোর ফাংশন
+function showSlide(i){
+
+    slides.forEach(slide => slide.classList.remove("active"));
+
+    slides[i].classList.add("active");
+
+}
+
+// Next Button
+if(next){
+
+next.addEventListener("click",()=>{
+
+    index++;
+
+    if(index>=slides.length){
+
+        index=0;
+
+    }
+
+    showSlide(index);
+
+});
+
+}
+
+// Previous Button
+if(prev){
+
+prev.addEventListener("click",()=>{
+
+    index--;
+
+    if(index<0){
+
+        index=slides.length-1;
+
+    }
+
+    showSlide(index);
+
+});
+
+}
+
+// Auto Slide (প্রতি ৪ সেকেন্ডে)
+setInterval(()=>{
+
+    index++;
+
+    if(index>=slides.length){
+
+        index=0;
+
+    }
+
+    showSlide(index);
+
+},4000);
