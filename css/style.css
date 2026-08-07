@@ -143,3 +143,62 @@ footer{
     text-align:center;
     padding:25px;
 }
+/* =========================
+   Header Top
+========================= */
+
+.header-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 0;
+}
+
+.today-date{
+    color:white;
+    font-size:14px;
+}
+
+.header-right{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.header-right input{
+
+    padding:10px;
+    border:none;
+    border-radius:5px;
+
+}
+
+.header-right button{
+
+    padding:10px 15px;
+
+    background:#ff9800;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+.login-btn{
+
+    background:#28a745;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:10px 20px;
+
+    border-radius:5px;
+
+}

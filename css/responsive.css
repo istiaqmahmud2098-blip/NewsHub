@@ -23,3 +23,11 @@ nav li{
 }
 
 }
+.header-top{
+    flex-direction:column;
+    gap:15px;
+}
+
+.header-right{
+    flex-direction:column;
+}
